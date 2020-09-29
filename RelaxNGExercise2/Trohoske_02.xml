@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="RelaxNGExercise2.rnc" type="application/relax-ng-compact-syntax"?>
+<recipe>
+    
+    <title>Shrewsberry Cake</title>
+
+    <desc>Shrewsberry/Shrewsbury cakes are a kind of biscuit. They are less crumbly than a
+        shortbread but have a buttery flavour. Sweet foods like biscuits were popular with the
+        Georgians and were easier to make because of the the increased importing of sugar from the
+        sugar plantations in the Caribbean. They were made to accompany many dishes but were popular
+        with syllabub, which is a sugared, whipped cream, flavoured with cider or sherry. Sugar was
+        an important trade item and refined (white) sugar was very fashionable.</desc>
+
+    <p>This recipe uses white sugar, which would have been pinched off a sugarloaf and then ground
+        (beaten) until fine enough to use in the recipe.</p>
+
+    <p>Traditionally they are baked as thick, large biscuits and were able to be kept for long
+        periods of time.</p>
+
+    <p>This recipe comes from A delightful Daily Exercise for Ladies and
+        Gentlewomen</p>
+
+    <quote>"Take a quart of very fine flouwer, eight onces of fine sugar beaten and cersed, twelve
+        ounces sweet butter, nutmeg grated, damaske rosewater- work together with your hands for
+        halfe an houre, then roule in little round cakes about the thickness of three shillings,
+        then take a glasse and cut the cakes, then strow some flower on white papers and bake them
+        in an oven as hotte as for manchet. If the oven be not hotte sett your lid downe ( there is
+        a long explanantion for testing/changing the heat in the period oven which i have omitted)
+        until they be baked enough, for they must lokke browne not white. you may keep them halfe a
+        yeare but new baked are best."</quote>
+
+
+    <p>For images of the cooking process see our Shrewsbury Cakes Pictures.</p>
+
+    <acknowledgement>With thanks to Ian Pycroft of Black Knight Historical and to The Georgian House,
+        Bristol.</acknowledgement>
+
+    <reclist type="ingredients">
+        <label>Ingredients</label>
+        <item qual="dry" quant="4" unit="oz" xml:id="whtFlour"><equip ptr="WS">4oz</equip> plain
+            white flour</item>
+        <item qual="dry" quant="4" unit="oz" xml:id="casterSugar"><equip ptr="WS">4oz</equip>
+            white, caster sugar</item>
+        <item qual="wet" quant="4" unit="oz" xml:id="saltButter"><equip ptr="WS">4oz</equip>
+            salted butter (very soft, works best)</item>
+        <item qual="dry" quant=".25" unit="tsp" xml:id="gratedNutmeg">1/4 <equip ptr="tsp"
+                >teaspoon</equip> of grated (or ground) nutmeg</item>
+        <item qual="wet" range="2 3" unit="tsp" xml:id="roseWater">2-3 <equip ptr="tsp"
+                >teaspoon</equip> rosewater</item>
+        <item qual="wet" range="3 5" unit="tsp" xml:id="tapWater">3-5 <equip ptr="tbsp"
+                >tablespoons</equip> tapwater (at room temperature)</item>
+        <item qual="dry" req="optional">optional: a little caster sugar to sprinkle on the top</item>
+        <note>( Note: You may need more water to make a stiff dough, it will depend on the
+            flour you use.)</note>
+    </reclist>
+
+
+    <reclist type="equipment">
+        <label>Equipment</label>
+        <item xml:id="WS">Weighing scales</item>
+        <item xml:id="tsp">Teaspoon</item>
+        <item xml:id="tbsp">Tablespoon</item>
+        <item xml:id="grater">Grater (optional)</item>
+        <item xml:id="mxBowl">Mixing bowl</item>
+        <item xml:id="woodSpn">Wooden spoon</item>
+        <item xml:id="rollPin">Rolling pin</item>
+        <item xml:id="lgCutter">Large cutter</item>
+        <item xml:id="fork">Fork</item>
+        <item xml:id="bakeSheet">Baking sheet</item>
+        <item xml:id="coolRack">Cooling rack</item>
+    </reclist>
+
+    <warning>Always wash your hands before preparing food Always wash your hands before preparing
+        food.</warning>
+
+    <reclist type="process">
+        <item number="1">Heat the oven with a good fire</item>
+        <item number="2">Put the <ingred ptr="#whtFlour">flour</ingred>, <ingred
+                    ptr="#casterSugar">sugar</ingred> and <ingred ptr="#saltButter">butter</ingred>
+                into a <equip ptr="#mxBowl">bowl</equip> and mix well with a <equip ptr="fork"
+                    >fork</equip>. You should end up with fine breadcrumbs. If the <ingred
+                    ptr="#saltButter">butter</ingred> is hard, you will need to rub it in with your
+                fingertips, like making pastry</item>
+        <item number="3">Add the <ingred ptr="#roseWater">rosewater</ingred> and enough <ingred
+                    ptr="#tapWater">water</ingred> to make a soft dough</item>
+        <item number="4">Gather the dough together with your fingers in the <equip ptr="#mxBowl"
+                    >bowl</equip></item>
+        <item number="5">Kneed lightly</item>
+        <item number="6"><ingred ptr="#whtFlour">Flour</ingred> a surface and <equip
+                    ptr="#rollPin">roll the dough</equip> out to 3 shillings depth</item>
+        <item number="7">Use a glass to cut the cakes out</item>
+        <item number="8">Prick the surface of the cakes with a <equip ptr="#fork"
+                >fork</equip></item>
+        <item number="9">Space the cakes out on <equip ptr="#bakeSheet">paper</equip> and bake
+                until the cakes are golden brown</item>
+        <item number="10">Serve cold with syllabub</item>       
+    </reclist>
+</recipe>

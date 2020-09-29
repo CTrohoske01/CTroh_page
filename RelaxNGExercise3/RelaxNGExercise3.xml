@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="RelaxNGExercise3.rnc" type="application/relax-ng-compact-syntax"?>
+<recipe>
+    <title>Perfect Pumpkin Pie</title>
+    <summary>Recipe Summary</summary>
+    <prep>Prep:15 mins</prep>
+    <cook>Cook:55 mins</cook>
+    <totalTime>Total:1 hr 10 mins</totalTime>
+    <servings>Servings:8</servings>
+    <yield>Yield:1 - 9 inch pie</yield>
+    <recList type="ingredients">
+        <label>Ingredient Checklist</label>
+        <item xml:id="CanPmpkn" type="solid" quant="15" unit="oz">1 (15 ounce) can pumpkin</item>
+        <item xml:id="CondMilk" type="liquid" quant="14" unit="oz">1 (14 ounce) can EAGLE BRAND®
+            Sweetened Condensed Milk</item>
+        <item xml:id="egg" type="solid" quant="2">2 large eggs large eggs</item>
+        <item xml:id="GroundCinn" type="powder" quant="1" unit="tsp">1 teaspoon ground
+            cinnamon</item>
+        <item xml:id="GroundGing" type="powder" quant=".5" unit="tsp">½ teaspoon ground
+            ginger</item>
+        <item xml:id="GroundNutMeg" type="powder" quant=".5" unit="tsp">½ teaspoon ground
+            nutmeg</item>
+        <item xml:id="salt" type="powder" quant=".5" unit="tsp">½ teaspoon salt</item>
+        <item xml:id="PieCrust" type="solid" quant="9" unit="inches">1 (9 inch) unbaked pie
+            crust</item>
+    </recList>
+    <recList type="directions">
+        <label>Directions</label>
+        <item>Step 1:Preheat oven to 425 degrees F. Whisk <ingred ptr="CanPmpkn">pumpkin</ingred>,
+                <ingred ptr="CondMilk">sweetened condensed milk</ingred>, <ingred ptr="eggs"
+                >eggs</ingred>, spices and <ingred ptr="salt">salt</ingred> in medium bowl until
+            smooth. Pour into <ingred ptr="PieCrust">crust</ingred>. Bake 15 minutes.</item>
+        <item>Step 2 Reduce oven temperature to 350 degrees F and continue baking 35 to 40 minutes
+            or until knife inserted 1 inch from crust comes out clean. Cool. Garnish as desired.
+            Store leftovers covered in refrigerator.</item>
+    </recList>
+    <recList type="nutrition facts">
+        <label>Nutrition Facts Per Serving:</label>
+        <item>379.1 calories</item>
+        <item>protein 5.9g 12% DV</item>
+        <item>carbohydrates 30.5g 10% DV</item>
+        <item>fat 14.3g 22% DV</item>
+        <item>cholesterol 64mg 21% DV</item>
+        <item>sodium 352.1mg 14% DV</item>
+    </recList>
+</recipe>
